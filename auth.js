@@ -45,10 +45,7 @@ function signup() {
 
 // ✅ GOOGLE LOGIN (MOBILE SAFE)
 function googleLogin() {
-  const provider = new firebase.auth.GoogleAuthProvider();
-  firebase.auth().useDeviceLanguage();
-
-  auth.signInWithRedirect(provider);
+  alert("Google login will be available soon 🚀");
 }
 
 // ✅ HANDLE REDIRECT RESULT
